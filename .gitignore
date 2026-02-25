@@ -1,0 +1,14 @@
+# Build artifacts
+build/
+*.exe
+*.o
+
+# PCAP files
+*.pcap
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
