@@ -141,7 +141,7 @@ An input.pcap file is a Packet Capture (PCAP) data file that contains a record o
 What is in an input.pcap file?
 
 Packet Headers: Contains metadata like timestamps, source and destination IP addresses, and protocol information.
-Packet Data (Payload): The raw binary content of the communication, which can include the actual data sent, such as the text of an email or the content of a web page.
+Packet Data (Payload): It is the raw binary content of the communication, which can include the actual data sent, such as the text of an email or the content of a web page.
 Global Header: Information about the file format and compatibility.
 
 ### Two Versions
