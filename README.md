@@ -891,6 +891,11 @@ g++ -std=c++17 -O2 -I include -o dpi_simple \
     src/sni_extractor.cpp \
     src/types.cpp
 ```
+(for copy-paste purpose)
+```bash
+g++ -std=c++17 -O2 -I include -o dpi_simple src/main_working.cpp src/pcap_reader.cpp src/packet_parser.cpp src/sni_extractor.cpp src/types.cpp
+
+```
 
 **Multi-threaded Version:**
 ```bash
@@ -903,7 +908,9 @@ g++ -std=c++17 -pthread -O2 -I include -o dpi_engine \
 
 ```
 
+(for copy-paste purpose)
 ```bash
+
 g++ -std=c++17 -pthread -O2 -I include -o dpi_engine src/dpi_mt.cpp src/pcap_reader.cpp src/packet_parser.cpp src/sni_extractor.cpp src/types.cpp
 
 ```
